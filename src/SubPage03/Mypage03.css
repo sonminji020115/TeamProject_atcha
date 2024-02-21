@@ -1,0 +1,127 @@
+@charset "uft-8";
+
+select{
+    cursor: pointer;
+}
+.Mypage03{
+    position: relative;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    background-color: #000;
+}
+.Mypage03 .RecHeader{
+    padding-bottom: 0px;
+}
+.Mypage03 .m3_01{
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.Mypage03 .m1_img{
+    margin-top: 5px;
+}
+.Mypage03 .m1_img img {
+    cursor: pointer;
+}
+.Mypage03 .m1_txt{
+    font-size: 15px;
+}
+.Mypage03 .m1_txt span{
+    font-weight: 600;
+}
+.Mypage03 .rename{
+    line-height: 2.5;
+    font-size: 16px;
+}
+.Mypage03 .review{
+    margin-top: 20px;
+}
+.Mypage03 .review_t{
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 7px;
+}
+.Mypage03 .review_t img{
+    margin-right: 5px;
+}
+.Mypage03 .m3_content{
+    box-sizing: border-box;
+    padding: 15px 20px;
+    display: flex;
+}
+.Mypage03 .m3_post{
+    width: 30%;
+}
+.Mypage03 .m3_post img{
+    width: 100%;
+}
+.Mypage03 .m3_text{
+    width: 60%;
+    white-space: wrap;
+    margin-left: 20px;
+}
+.Mypage03 .m3i_01{
+    font-size: 16px;
+    font-weight: 500;
+}
+.Mypage03 .m3i_02{
+    margin-top: -18px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #ccc;
+}
+.Mypage03 .m3i_03{
+    font-size: 13px;
+}
+.Mypage03 .lode{
+    padding-left: 10%;
+    padding-top: 30px;
+}
+.Mypage03 .lode select{
+    padding: 3px 7px 5px 7px;
+    color: #fff;
+    background-color: #000;
+}
+.Mypage03 .review{
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width:768px){
+    .Mypage03 .m3_in{
+        padding-left: 240px;
+    }
+    .Mypage03 .rename{
+        font-size: 17px;
+    }
+    .Mypage03 .m3_post{
+        width: 25%;
+    }
+    .Mypage03 .m3_text{
+        width: 75%;
+    }
+    .Mypage03 .m3i_01{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .Mypage03 .m3i_02{
+        font-size: 14px;
+    }
+    .Mypage03 .m3i_03{
+        margin-top: 7%;
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:1024px){
+    .Mypage03 .m3_in{
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

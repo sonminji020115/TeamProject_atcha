@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* Sub01.css */
+
+.download{
+    margin-top: 4px;
+}
+.puls{
+    margin-top: 1px;
+}
+.chatting{
+    margin-top: 1px;
+}
+
+/* 서브페이지3 */
+
+.DetailPage3{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+    .DetailPage3{
+        padding-left : 240px;
+    }
+}
+.title1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    line-height: 1em;
+}
+.title1 h1{
+    font-size: 17px;
+    color: #fff;
+}
+.title1 p{
+    cursor: pointer;
+    font-size: 15px;
+    color: #999;
+}
+.review{
+    width: 80%;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #999;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.review_t{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;  
+}
+.review_t p{
+    font-weight: 700;
+}
+.rename img{
+    margin-right: 12px;
+}
+.reviewer{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.rename{
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;  
+    padding-bottom: 10px;
+}
+.review_b{
+    margin-top: 10px;
+    margin-bottom: 10;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* 서브페이지4 */
+
+.DetailPage4{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+    .DetailPage4{
+        padding-left : 240px;
+    }
+}
+.DetailPage4 h1{
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1em;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.smovie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sImgCard3{
+    width: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.poster img{
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    width: 100%;
+
+}
+.title{
+    margin-bottom: 10px;
+    font-size: 13px;
+}

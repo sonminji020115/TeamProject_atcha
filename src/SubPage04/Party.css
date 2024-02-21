@@ -1,0 +1,145 @@
+@charset "utr-8";
+
+/* 공용 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* party1 */
+.Main03List03{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.party1img{
+    position: relative;
+    cursor: pointer;
+}
+.partyback img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.partychat{
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+.partyde{
+    color: white;
+}
+.party_box{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.pd1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.pd1 img{
+    width: 20px;
+    height: 20px;
+}
+.pd2{
+    display: flex;
+}
+.pd2 img{
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+/* party2 */
+
+.Party2{
+    text-align: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.Party2 img{
+    width: 30%;
+    margin-bottom: 10px;
+}
+.Party2 p{
+    color: white;
+    font-size: 15px;
+}
+
+/* party3 */
+
+.Party3{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.party3name{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+}
+.partynow{
+    color: white;
+    margin-bottom: 10px;
+}
+.partytime{
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+
+}
+.partyposter{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.partyposter img{
+    width: 100%;
+}
+.partyres{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.partyst{
+    margin-bottom: 10px;
+}
+.partypro{
+    display: flex;
+}
+.partypro img{
+    width: 20px;
+    height: 20px;
+    margin-right:5px;
+}
+
+/* party4 */
+.Party4{
+
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+}
+.Party4_d{
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+@media screen and (min-width: 768px) {
+    .Party{
+        padding-left:240px    
+    }
+}
+/* 모달 */
+

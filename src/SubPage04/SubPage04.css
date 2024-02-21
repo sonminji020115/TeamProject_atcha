@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* SubPage04.css */
+
+/* 파티 설정 */
+.Setting01{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.Setting02{
+    color: #BEBEBE;
+    margin-top: 12px;
+    font-size: 13px;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.active{
+    background-color: #fff;
+}
+
+/* 파티 공개 설정 */
+.radio_box {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-bottom: 20px;
+}
+
+.radio_box input[type="radio"] {
+    display: none;
+}
+
+.on {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.radio_box input[type="radio"]:checked + .on {
+    background: #ffffff;
+}
+
+.on:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio_box input[type="radio"]:checked + .on:after {
+    display: block;
+}
+
+.on:after {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute; 
+    left: 5px;
+    top: 5px;
+}
+
+/* 파티호스트설정 */
+input[id="cb1"] + label{
+    margin-bottom: 10px;
+}
+input[id="cb1"] + label {
+    display: inline-block;
+    margin-top: 3px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+input[id="cb1"]:checked + label {
+    background-color: #fff;
+}
+input[id="cb1"] {
+    display: none;
+}
+
+input[id="cb2"] + label {
+    display: inline-block;
+    margin-top: 3px;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+input[id="cb2"]:checked + label {
+    background-color: #fff;
+}
+input[id="cb2"] {
+    display: none;
+
+}

@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* SubPage03.css */
+
+@media screen and (min-width:768px){
+    .mp_02{
+        padding-left: 240px;
+    }
+}
+@media screen and (min-width:1024px){
+    .mp_02{
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

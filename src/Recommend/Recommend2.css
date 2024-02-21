@@ -1,0 +1,24 @@
+.recmovie{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.rImgCard{
+    width: 25%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.rposter img{
+    margin-bottom: 10px;
+    border-radius: 2px;
+    width: 100%;
+
+}
+.title{
+    margin-bottom: 10px;
+    font-size: 13px;
+}

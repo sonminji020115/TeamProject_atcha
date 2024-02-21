@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+
+.Partymodal1{
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    font-size: 12px;
+    line-height: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: white;
+}
+.Partymodal1 button{
+    margin-left: 10px;
+    color: white;
+    border-radius: 4px;
+    background-color: burlywood;
+    padding: 8px;
+}
+.Partymodalsize{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}

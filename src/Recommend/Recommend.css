@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.Recommend{
+    width: 100%;
+}
+@media screen and (min-width: 768px) {
+    .Recommend{
+        padding-left: 240px;
+    }
+
+}

@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+.Main02List02{
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    white-space: nowrap;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.Main02List02 h2{
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+}
+.sImgCard{
+    margin-left: 0;
+}
+.sImgCard2{
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+.sImgCard2 .poster2{
+    border-radius: 4px;
+    overflow: hidden;
+}
+.poster2 img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.m2title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.m2title p{
+    color: #777;
+}
+.title{
+    color: #999;
+    text-align: center;
+}
+.m2_more{
+    cursor: pointer;
+}

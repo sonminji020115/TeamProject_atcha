@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.Recommend1{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.Recommend1 img{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.Recommend1 h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fff;   
+}
+.Recommend1 h2{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.Recommend1 p{
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}

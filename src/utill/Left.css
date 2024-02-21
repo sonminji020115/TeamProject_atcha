@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+.Left{
+    display: none;
+    position: fixed;
+    width: 240px;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    background-color: #141517;
+    
+}
+.logo1 img{
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.home1, .movies1, .party1, .search1, .review1, .box1{
+    cursor: pointer;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #cfcfcf;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 6px;
+    border-radius: 4px;
+    
+}
+.home1 img, .movies1 img, .party1 img, .search1 img, .review1 img, .box1 img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.home1 p, .movies1 p, .party1 p, .search1 p, .review1 p, .box1 p{
+    margin-bottom: 0;
+}
+.lefttop{
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 30px;
+}
+.home1.active1, .movies1.active1, .party1.active1, .box1.active1, .search1.active1{
+    background-color: rgb(58, 58, 58);
+}
+
+
+.partynew{
+    padding: 2px;
+    margin-top: 3px;
+    text-align: center;
+    line-height: 1em;
+    color: rgb(255, 255, 255);
+    margin-left: 8px;
+    border-radius: 3px;
+    font-size: 10px;
+    background-color: rgb(255, 33, 122);
+}
+@media screen and (min-width: 768px) {
+    .Left{
+        display: block;
+    }
+}

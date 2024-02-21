@@ -1,0 +1,106 @@
+@charset "uft-8";
+
+.DetailPage3 .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.DetailPage3 .modal.show {
+    display: block;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    right: 10px;
+}
+
+.title2 {
+    font-size: 15px;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    color: white;
+}
+
+.ReviewModal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: auto;
+    background-color: #fff;
+}
+
+.ReviewModal textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+    border: 0;
+}
+
+.ReviewModal input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    border: 1px solid #ddd;
+}
+.reviewtitle{
+    display: flex;
+    line-height: 1em;
+    justify-content: space-between;
+}
+.ReviewModal p{
+    margin-bottom: 0;
+}
+.reviewbtn {
+    background-color: gray;
+    padding: 10px 20px 10px 20px;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #eaeaea;
+    margin-top: 15px;
+}
+
+.star {
+    color: rgb(181, 181, 181);
+    /* 혹은 원하는 기본 색상을 지정하세요 */
+    cursor: pointer;
+    font-size: 25px;
+}
+.star.filled {
+    color: yellow;
+    /* 혹은 별이 채워진 상태의 색상을 지정하세요 */
+}
+.score {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.modalbottom{
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
+.modalbottom p{
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.modaltitle{
+    line-height: 1em;
+    font-size: 18px;
+}

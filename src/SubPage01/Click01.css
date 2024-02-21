@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* ClickPage.css */
+.mainTxt{
+    margin-top: 4px;
+}
+.wrap{
+    display: flex;
+}

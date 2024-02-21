@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* SubPage02.css */
+
+/* 헤더영역 */
+.icon02{
+    margin-top: 2px;
+}
+.series{
+    margin-top: -4px;
+}
+.gather{
+    font-weight: 500;
+    margin-top: 11px;
+    padding-right: 23px;
+    cursor: pointer;
+}
+.active{
+    color: #000 !important;
+    background-color: #fff;
+    border: none;
+    font-weight: 500;
+}

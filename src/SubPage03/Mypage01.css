@@ -1,0 +1,514 @@
+@charset "utf-8";
+
+.Mypage01, .Mypage04{
+    position: relative;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    background-color: #000;
+}
+.Mypage01 .RecHeader, .Mypage04 .RecHeader{
+    padding-bottom: 0px;
+}
+/* 마이페이지 상단 */
+.Mypage01 .mp_in, .Mypage04 .mp_in{
+    position: relative;
+}
+.Mypage01 .mp_bg, .Mypage04 .mp_bg{
+    position: relative;
+}
+.mp_01 img{
+    width: 100%;
+}
+.Mypage01 .mp_02, .Mypage04 .mp_02{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 10px;
+    left: 15px;
+    cursor: pointer;
+}
+.Mypage01 .bg_in, .Mypage04 .bg_in{
+    position: absolute;
+    display: flex;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+}
+.Mypage01 .bg_in .mp_03, .Mypage04 .bg_in .mp_03{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+.Mypage01 .bg_in .mp_03 img, .Mypage04 .bg_in .mp_03 img{
+    width: 100%;
+}
+.Mypage01 .bg_in .mp_04{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+.Mypage01 .bg_in .mp_04 img{
+    width: 100%;
+}
+
+/* 프로필 영역 */
+.Mypage01 .mp_pro, .Mypage04 .mp_pro{
+    position: absolute;
+    bottom: -90px;
+    left: 20px;
+    display: flex;
+}
+.Mypage01 .mp_pro .text, .Mypage04 .mp_pro .text{
+    margin-left: 10px;
+}
+.Mypage01 .text .txt01, .Mypage04 .text .txt01{
+    width: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.Mypage01 .text .txt02, .Mypage04 .text .txt02{
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.Mypage01 .text .txt03, .Mypage04 .text .txt03{
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: 15px;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.Mypage01 .text .txt04, .Mypage04 .text .txt04{
+    margin-left: 20px;
+}
+.Mypage04 .text{
+    position: relative;
+}
+.Mypage04 .txt05{
+    position: absolute;
+    top: 58%;
+    left: 112%;
+    color: #fff;
+    background-color: #000;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+.Mypage04 .false{
+    background-color: #fff;
+}
+/* 이용권 */
+.Mypage01 .my_01{
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+.Mypage01 .m1_in{
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    margin-top: 90px;
+    border-radius: 4px 4px 0 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+.Mypage01 .m1_text{
+    position: relative;
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.Mypage01 .m1_text .m1t_01{
+    font-size: 16px;
+    font-weight: 500;
+}
+.Mypage01 .m1_text .m1t_02{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.Mypage01 .m1_text .m1t_03{
+    margin-top: 3px;
+    color: #ddd;
+    font-size: 11px;
+}
+.Mypage01 .m1_text .m1t_04{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* 이용권 하단 */
+.Mypage01 .my_02, .Mypage04 .my_02{
+    box-sizing: border-box;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.Mypage04 .my_02{
+    margin-top: 95px;
+}
+.Mypage01 .m2_in, .Mypage04 .m2_in{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.Mypage01 .m2_in div, .Mypage04 .m2_in div{
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+/* 마이페이지 사이드 */
+.my04wrap{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #5E5E5E;
+    padding: 12px 20px 0;
+    z-index: 800;
+    transition: 2s;
+}
+.my04wrap.show{
+    left: 0;
+}
+.my04top{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+}
+.my04top .btn_close{
+    cursor: pointer;
+}
+.my04top .photo{
+    width: 37px;
+    height: 37px;
+}
+
+.my04top .photo img{
+    width: 100%;
+    height: auto;
+}
+.my04top .btn_close{
+    width: 27px;
+    height: 24px;
+    padding-top: 6px;
+}
+
+/* 아코디언 */
+#my04list h2{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1em;
+}
+#my04list h3{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1em;
+}
+#my04list .accordion-item{
+    border: 1px solid #5E5E5E;
+}
+#my04list .accordion-button{
+    padding: 13px 5px 11px;
+    border-bottom: 1px solid #e0e0e0; 
+    border-radius: 0;
+    background-color: #5E5E5E;
+    color: #fff; 
+}
+#my04list .accordion-body{
+    display: flex;
+    justify-content: space-between;
+}
+#my04list .accordion-body.theme{
+    flex-direction: column;
+}
+#my04list .accordion-body form{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 53px;
+    color: #000;
+}
+#my04list .accordion-body input{
+    vertical-align: middle;
+}
+#my04list .accordion-button::after{
+    background-image: url(../../public/img/btn_drop-down.png);
+}
+#my04list .accordion-collapse{
+    background-color: #5E5E5E;
+    border-radius: 0;
+    border-bottom: 1px solid #7a7a7a;
+    color: #fff;
+}
+.list_top{
+    border-bottom: 1px solid #e0e0e0;
+    padding: 13px 5px 10px;
+}
+#my04list ul{
+    padding: 0;
+    color: #fff;
+}
+#my04list ul h2{
+    cursor: pointer;
+}
+#my04list .cs ul{
+    display: flex;
+    justify-content: space-between;
+}
+#my04list .cs, #my04list .cs h2{
+    cursor: default;
+}
+#my04list .cs ul h3{
+    line-height: 1.4em;
+}
+#my04list .cs ul button{
+    width: 48px;
+    height: 18px;
+    margin-top: 15px;
+    font-size: 8px ;
+    border-radius: 50px;
+    background-color: #7D7D7D;
+    color: #fff;
+}
+.logout:hover{
+    color: rgb(230, 27, 27);
+}
+/* 토글 버튼 */
+.toggleContainer{
+    position: relative;
+    width: 43px;
+    height: 27px;
+    border-radius: 50px;
+    text-indent: -9999px;
+    background-color: #bababa;
+    transition: 0.5s;
+}
+.toggleContainer p{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.toggleContainer.active{
+    background-color: #ED2E5F;
+    transition: 0.5s;
+}
+.toggleContainer p.active{
+    left: 18px;
+}
+
+/* 리스트 */
+.Mypage01 .my_03, .Mypage04 .my_03{
+    box-sizing: border-box;
+    padding: 30px 20px;
+    cursor: pointer;
+}
+.Mypage01 .m3_in, .Mypage04 .m3_in{
+    display: flex;
+    margin-top: 15px;
+}
+.Mypage01 .m3a img, .Mypage04 .m3a img, .m3pc img{
+    box-sizing: border-box;
+    padding: 0 10px;
+    width: 100%;
+}
+.Mypage01 .m3a .m3_txt, .m3a .m3_txt, .m3pc .m3_txt{
+    margin-top: 8px;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+}
+.m3pc{
+    display: none;
+}
+/* 리뷰 */
+.Mypage01 .my_04, .Mypage04 .my_04{
+    box-sizing: border-box;
+    padding: 30px 20px;
+    cursor: pointer;
+}
+.Mypage01 .m4_in, .Mypage04 .m4_in{
+    display: flex;
+    margin-top: 15px;
+}
+.Mypage01 .m4_mo, .Mypage04 .m4_photo{
+    width: 50%;
+}
+.Mypage01 .m4_mo img, .Mypage04 .m4_photo img{
+    width: 100%;
+}
+.Mypage01 .m4_text, .Mypage04 .m4_text{
+    box-sizing: border-box;
+    margin-top: 15%;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin-left: 10px;
+    color: #fff;
+}
+.Mypage01 .m4_text .m4t_01, .Mypage04 .m4_text .m4t_01{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.Mypage01 .m4_text .m4t_02, .Mypage04 .m4_text .m4t_02{
+    margin-bottom: 30px;
+}
+.Mypage01 .m4_text .m4t_02 span, .Mypage04 .m4_text .m4t_02 span{
+    color: yellow;
+}
+.Mypage01 .m4_text .m4t_03, .Mypage04 .m4_text .m4t_03{
+    white-space: wrap;
+}
+.Mypage01 .m4_more, .Mypage04 .m4_more{
+    margin-top: 26px;
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.Mypage01 .m4_more .false{
+    background-color: #ddd;
+}
+/* 저장 콘텐츠 */
+.Mypage01 .my_05{
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.Mypage01 .m5_in{
+    display: flex;
+    margin-top: 15px;
+}
+.Mypage01 .m5_content{
+    position: relative;
+    width: 45%;
+    margin-right: 10px;
+}
+.Mypage01 .m5_content:last-child{
+    margin-right: 0;
+}
+.Mypage01 .m5_content img{
+    width: 100%;
+}
+.Mypage01 .m5_content .text{
+    margin-top: 10px;
+    white-space: wrap;
+    color: #fff;
+}
+.Mypage01 .play{
+    position: absolute;
+    top: 30%;
+    bottom: 50%;
+    left: 38%;
+    width: 20%;
+    height: 40%;
+    margin: auto;
+    background-size: 100%;
+    text-indent: -99999px;
+}
+
+
+@media screen and (min-width:768px){
+    .mp_all{
+        padding-left: 240px;
+    }
+    .my_03{
+        margin-top: 100px;
+    }
+    .m3pc{
+        display: block;
+    }
+    .Mypage01 .mp_02, .Mypage04 .mp_02{
+        left: -230px;
+        cursor: pointer;
+    }
+    .my_04{
+        margin-top: 100px;
+    }
+    .Mypage01 .m4_mo, .Mypage04 .m4_photo{
+        width: 30%;
+    }
+    .Mypage01 .m4_text, .Mypage04 .m4_text{
+        box-sizing: border-box;
+        margin-top: 5%;
+        width: 70%;
+        height: auto;
+        color: #fff;
+    }
+    .Mypage01 .m3a .m3_txt, .m3a .m3_txt, .m3pc .m3_txt{
+        font-size: 16px;
+    }
+    .Mypage01 .m5_content .text{
+        font-size: 16px;
+    }
+    .my04wrap.show{
+        left: 24%;
+    }
+    
+}
+@media screen and (min-width:1024px){
+    .mp_all{
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Mypage01 .m4_text, .Mypage04 .m4_text{
+        margin-top: 10%;
+    }
+    .Mypage01 .m4_text .m4t_01, .Mypage04 .m4_text .m4t_01{
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .Mypage01 .m4_text .m4t_02, .Mypage04 .m4_text .m4t_02{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .Mypage01 .m4_text .m4t_02 span, .Mypage04 .m4_text .m4t_02 span{
+        color: yellow;
+    }
+    .Mypage01 .m4_text .m4t_03, .Mypage04 .m4_text .m4t_03{
+        white-space: wrap;
+        font-size: 15px;
+    }
+    .Mypage01 .m4_more, .Mypage04 .m4_more{
+        margin-top: 26px;
+        padding: 15px 0;
+        text-align: center;
+        font-size: 16px;
+        color: #fff;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+    .my04wrap.show{
+        left: 81.5%;
+    }
+}

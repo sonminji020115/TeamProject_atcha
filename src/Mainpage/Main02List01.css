@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+.Main02List01{
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    white-space: nowrap;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.Main02List01 h2{
+    margin-bottom: 15px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+}
+.Main02List01 h2 span{
+    font-size: 20px;
+}
+.sImgCard1{
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+.sImgCard1 .poster1{
+    border-radius: 4px;
+    overflow: hidden;
+}
+.poster1{
+    position: relative;
+}
+.poster1 img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.num{
+    position: absolute;
+    bottom: 20px;
+    left: 2px;
+    opacity: 0.8;
+    font-size: 55px;
+    color: #fff;
+    z-index: 1;
+}

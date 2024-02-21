@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+/* 앗챠 개발자 추천 리스트 */
+.M4list01{
+    cursor: pointer;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    white-space: nowrap;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.M4list01 .list_in{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.M4list01 .list_in .pro{
+    margin-top: 6px;
+    margin-top: 40px;
+    width: 10%;
+}
+.M4list01 .list_in .pro img{
+    width: 100%;
+    height: auto;
+}
+.M4list01 .text{
+    text-align: left;
+    margin-top: 6%;
+    margin-left: 20px;
+    width: 90%;
+    height: 57px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.M4list01 .txt01 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #9B9B9B;
+}
+.M4list01 .txt02 {
+    color: #fff;
+}
+.M4list01 .more{
+    position: absolute;
+    right: 0;
+    margin-top: 32px;
+    margin-left: 10px;
+    color: #777;
+}
+.M4list01 .slick-arrow{
+    text-indent: -999999px;
+}
+.m4slide{
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+.m4slide .m4poseter{
+    border-radius: 4px;
+    overflow: hidden;
+}
+.m4slide .m4poseter img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: 0.2s;
+}

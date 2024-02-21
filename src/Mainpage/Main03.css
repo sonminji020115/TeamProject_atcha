@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* 전체영역 */
+*{
+    padding: 0;
+    margin: 0;
+}
+.App{
+    background-color: black;
+}
+h1{
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: left;
+    line-height: 1em;
+    color: #fff;
+}
+.play{
+    width: 38px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-image: url(../../public/img/icon_watch_play.png);
+}
+
+/* 모바일-메인3 - 리스트1 */
+
+.Main03List01{
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    white-space: nowrap;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.Main03List01 .sImgCard .watchingphoto{
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0px 0px;
+    overflow: hidden;
+}
+.Main03List01 .sImgCard{
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+.Main03List01 .sImgCard img{
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    height: auto;
+    cursor: pointer;
+}
+.Main03List01 button.play{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 38%;
+    width: 30%;
+    height: 30%;
+    margin: auto;
+    background-size: 100%;
+}
+.Main03List01 .sImgCard p.waching_box{
+    position: relative;
+    width: 100%;
+    height: 25px;
+    margin-top: -15px;
+    border-radius: 0px 0px 4px 4px;
+    background-color: #3a3a3a;
+}
+.Main03List01 .wc_more{
+    position: absolute;
+    top: 5px;
+    left: calc(50% - 7px);
+    width: 30%;
+    height: 30px;
+    line-height: 1.6em;
+    background-image: url(../../public/img/icon_watch_info.png);
+    background-repeat: no-repeat;
+}  
+
+/* 모바일-메인3 - 리스트2 */
+.Main03List02{
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    white-space: nowrap;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.Main03List02 .sImgCard{
+    position: relative;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+/* .Main03List02 .sImgCard div{
+    overflow: hidden;
+} */
+.Main03List02 .sImgCard img{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Main03List02 .sImgCard .photo_txt{
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    width: 50%;
+    height: auto;
+    margin-bottom: -10px;
+}
+.Main03List02 .sImgCard p{
+    word-break: keep-all;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-wrap: wrap;
+    text-decoration: dotted;
+    color: #fff;
+}
+
+/* 모바일-메인3 - 리스트3 */
+.Main03List03{
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    white-space: nowrap;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Main03List03 .top{
+    display: flex;
+    justify-content: space-between;
+}
+.Main03List03 .top p{
+    color: #7777;
+    cursor: pointer;
+}
+.Main03List03 .sImgCard{
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+.Main03List03 .sImgCard .partyphoto{
+    position: relative;
+    border-radius: 4px 4px 0px 0px;
+    overflow: hidden;
+}
+.Main03List03 .sImgCard p img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.Main03List03 button.play{
+    position: absolute;
+    top: 30%;
+    bottom: 50%;
+    right: 50%;
+    left: 42%;
+    width: 20%;
+    height: 100%;
+    margin: 0 auto;
+    background-size: 100%;
+}
+.Main03List03 p.party_box{
+    height: auto;
+    font-size: 10px;
+    padding-left: 3px;
+    margin-top: -15px;
+    border-radius: 0 0 4px 4px;
+    background-color: #191A1B;
+}
+/* 모바일 끝 */
+
+/* 768px */
+@media screen and (min-width: 768px){
+    /* 768px-메인3 - 리스트1 */
+    .Main03List01 .sImgCard p.waching_box{
+        height: 30px;
+    }
+    .Main03List01 .wc_more{
+        width: 40%;
+        height: 40px;
+    }  
+    
+    
+    /* 768px-메인3 - 리스트2 */
+    .Main03List02 .sImgCard .photo_txt{
+        margin-bottom: -10px;
+    }
+    .Main03List02 .sImgCard p{
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    
+    /* 768px-메인3 - 리스트3 */
+    .Main03List03 p.party_box{
+        padding: 5px 8px;
+        font-size: 12px;
+    }
+
+    
+} /* 768px 끝 */
+
+@media screen and (min-width: 1024px) {
+
+    
+    /* 1024px-메인3 - 리스트3 */
+    .Main03List03 p.party_box{
+        padding: 8px 8px;
+        font-size: 14px;
+    }
+    
+    /* 1024px-메인3 - 리스트2 */
+    .Main03List02 .sImgCard .photo_txt{
+        margin-bottom: 0px;
+    }
+    .Main03List02 .sImgCard p{
+        font-size: 34px;
+    }
+
+    
+} /* 1024px 끝 */
